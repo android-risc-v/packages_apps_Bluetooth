@@ -60,6 +60,7 @@ cc_library_shared {
         "-Werror",
         "-Wextra",
         "-Wno-unused-parameter",
+        "-Wno-non-c-typedef-for-linkage",
     ],
     sanitize: {
         scs: true,
